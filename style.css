@@ -1,0 +1,90 @@
+/*SECTION-FULLSCREN CAPA*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img_total {
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img_total h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+    color: pink;
+    margin-top: 80px;
+}
+
+.img_total h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: blue;
+}
+
+.botao {
+    background-color: rgb(255, 251, 251);
+    border-radius: 2px;
+    color: #12792c;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 80px;
+    box-shadow: rgb(50, 50, 50) 2px 2px 2px 2px;
+}
+
+.botao:hover {
+    color: #000000;
+}
+
+
+/*QUEBRA DE PONTO (BREAKPOINT)*/
+
+@media (max-width: 700px) {
+    .img_total h3 {
+        color: #ffffff;
+        font-size: 18px;
+    }
+    .img_total h1 {
+        color: #ffffff;
+        margin-top: 170px;
+    }
+    .botao {
+        margin-top: 20px;
+    }
+}
+
+
+/*LIVROS*/
+
+.livros {
+    display: flex;
+}
+
+
+/*TITULOS*/
+
+h3 {
+    text-align: center;
+}
+
+
+/*RODAPE*/
+
+.row {
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    padding: 30px;
+}
+
+.img2 {
+    width: 40%;
+}
